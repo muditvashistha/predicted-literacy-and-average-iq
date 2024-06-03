@@ -12,7 +12,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 # filtering the data out
-df=pd.read_csv("C:\\Users\\Mudit\\Desktop\\python logic questions practice\\trying something\\archive\\avgIQpercountry.csv")
+df=pd.read_csv("") #Mention your file's directory here
 
 asia=df[(df['Continent']=='Asia')]
 
